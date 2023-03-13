@@ -5,3 +5,4 @@ A Twitter clone using:
 - Next.JS 13,
 - Tailwind CSS,
 - Redux Toolkit,
+- Firebase

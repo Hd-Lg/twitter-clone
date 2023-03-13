@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ModalApp = () => {
 	return (
 		<aside className='bg-blue-500 text-white flex flex-col bottom-0 left-0 fixed px-5 py-4 space-y-4'>

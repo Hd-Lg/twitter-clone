@@ -1,4 +1,4 @@
-import { Trends } from './(UI)/components';
+import { Events, Trends } from './(UI)/components';
 
 export const metadata = {
 	title: 'Blue Bird Clone',
@@ -9,6 +9,7 @@ export default function Home() {
 	return (
 		<main className='mt-14 mx-5'>
 			<Trends />
+			<Events />
 		</main>
 	);
 }

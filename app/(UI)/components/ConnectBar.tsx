@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ConnectBar = () => {
 	return (
 		<aside className=' bg-white text-blue-500 flex flex-row w-full bottom-0 left-0 fixed px-5 py-4 space-y-4'>

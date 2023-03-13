@@ -1,9 +1,10 @@
 import { Suspense } from 'react';
+// import { ModalApp, TopBar } from './(UI)/components';
 import Loading from './loading';
-import { ModalApp, TopBar } from './(UI)/components';
 
+// import ConnectBar from './(UI)/components/ConnectBar';
+// import OptionModal from './(UI)/components/OptionModal';
 import './globals.css';
-import ConnectBar from './(UI)/components/ConnectBar';
 
 export default function RootLayout({
 	children,
@@ -14,10 +15,11 @@ export default function RootLayout({
 		<html lang='en'>
 			<Suspense fallback={<Loading />}>
 				<body className='flex flex-col'>
-					<TopBar />
+					{/* <TopBar /> */}
 					{children}
-					<ModalApp />
+					{/* <ModalApp />
 					<ConnectBar />
+					<OptionModal /> */}
 				</body>
 			</Suspense>
 		</html>
